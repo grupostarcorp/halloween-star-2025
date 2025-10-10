@@ -12,55 +12,77 @@
       color: #fff;
       text-align: center;
     }
+
+    /* ======= FRANJA SUPERIOR ======= */
     header {
-      background: linear-gradient(90deg, #8b0000, #000);
-      padding: 20px;
+      width: 100%;
     }
-    h1 {
-      font-size: 2em;
-      margin: 0;
+
+    header img {
+      width: 100%;
+      height: auto;
+      display: block;
     }
-    .logos {
-      margin-top: 10px;
-    }
-    .logos img {
-      height: 60px;
-      margin: 0 10px;
-    }
+
+    /* ======= SECCIÓN CENTRAL ======= */
     section {
-      padding: 30px 15px;
+      padding: 40px 20px;
       max-width: 800px;
-      margin: auto;
+      margin: 0 auto;
       text-align: left;
     }
+
     h2 {
       color: #ffcc00;
       border-bottom: 1px solid #ffcc00;
       padding-bottom: 5px;
+      margin-top: 40px;
     }
-    footer {
-      background: #111;
-      padding: 15px;
-      font-size: 0.9em;
+
+    ul {
+      list-style: disc;
+      padding-left: 20px;
     }
+
     a {
       color: #ffcc00;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
+    /* ======= FRANJA INFERIOR ======= */
+    footer {
+      margin-top: 50px;
+      width: 100%;
+    }
+
+    footer img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* ======= PIE DE PÁGINA LEGAL ======= */
+    .legal {
+      background: #111;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #bbb;
+    }
+
   </style>
 </head>
 <body>
+
+  <!-- ======= FRANJA SUPERIOR ======= -->
   <header>
-    <h1>🎃 HALLOWEEN STAR 2025: EL CINE DEL TERROR 🎬</h1>
-    <div class="logos">
-      <img src="https://www.cinestar.com.pe/assets/images/logo-cinestar.png" alt="Cinestar Logo" />
-      <img src="https://www.cinestar.com.pe/assets/images/logo-movietime.png" alt="Movie Time Logo" />
-    </div>
+    <img src="Franja-1.jpg" alt="Banner superior Halloween Star 2025" />
   </header>
 
+  <!-- ======= CONTENIDO PRINCIPAL ======= -->
   <section>
     <h2>📅 Fechas del evento</h2>
     <p>30 y 31 de octubre de 2025 en todos los complejos Cinestar, Movie Time y Movie Time Premium.</p>
@@ -78,11 +100,18 @@
 
     <h2>📜 Bases y Términos</h2>
     <p>Puedes revisar las bases completas del concurso en el siguiente enlace:</p>
-    <p><a href="documento de prueba.pdf" target="_blank">Descargar Bases del Concurso (PDF)</a></p>
+    <p><a href="documento%20de%20prueba.pdf" target="_blank">Descargar Bases del Concurso (PDF)</a></p>
   </section>
 
+  <!-- ======= FRANJA INFERIOR ======= -->
   <footer>
-    <p>&copy; 2025 Grupo Star | Cinestar | Movie Time | Todos los derechos reservados.</p>
+    <img src="Franja-inferior.jpg" alt="Banner inferior Halloween Star 2025" />
   </footer>
+
+  <!-- ======= PIE DE PÁGINA LEGAL ======= -->
+  <div class="legal">
+    <p>&copy; 2025 Grupo Star | Cinestar | Movie Time | Todos los derechos reservados.</p>
+  </div>
+
 </body>
 </html>
